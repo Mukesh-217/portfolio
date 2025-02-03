@@ -364,7 +364,7 @@ function App() {
             </div>
             <div className="bg-white rounded-xl shadow-lg overflow-hidden">
               <img 
-                src="../public/img/agricultureandaqua.jpg"
+                src={getImagePath('/agricultureandaqua.jpg')}
                 alt="E-commerce Platform"
                 className="w-full h-48 object-cover"
               />
@@ -392,7 +392,7 @@ function App() {
             </div>
             <div className="bg-white rounded-xl shadow-lg overflow-hidden">
               <img 
-                src="../public/img/imagereck.jpeg"
+                src={getImagePath('/imagereck.jpeg')}
                 alt="E-commerce Platform"
                 className="w-full h-48 object-cover"
               />
@@ -421,7 +421,7 @@ function App() {
 
             <div className="bg-white rounded-xl shadow-lg overflow-hidden">
               <img 
-                src="../public/img/employability.jpeg"
+                src={getImagePath('/employability.jpeg')}
                 alt="E-commerce Platform"
                 className="w-full h-48 object-cover"
               />
