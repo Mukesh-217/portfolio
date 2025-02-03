@@ -280,7 +280,7 @@ function App() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-xl shadow-lg overflow-hidden">
               <img 
-                src="/img/onlinehealth.jpeg"
+                src="../public/img/onlinehealth.jpeg"
                 alt="Enterprise Dashboard"
                 className="w-full h-48 object-cover"
               />
