@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import index from './index.css';
+import img from '../public/img';
 import { 
   Github, 
   Linkedin, 
