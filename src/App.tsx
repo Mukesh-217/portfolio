@@ -101,7 +101,7 @@ function App() {
           <div className="mb-8 flex justify-center">
             <div className="relative">
               <img 
-                src="../public/img/profile_img.jpg"
+                src={getImagePath('/profile_img.jpg')}
                 alt="Profile"
                 className="w-40 h-40 rounded-full border-4 border-white shadow-lg object-cover"
               />
