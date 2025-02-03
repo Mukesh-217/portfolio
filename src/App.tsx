@@ -312,7 +312,7 @@ function App() {
             </div>
             <div className="bg-white rounded-xl shadow-lg overflow-hidden">
               <img 
-                src="../public/img/tictactoe.webp"
+                src={getImagePath('/tictactoe.webp')}
                 alt="E-commerce Platform"
                 className="w-full h-48 object-cover"
               />
