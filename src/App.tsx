@@ -18,6 +18,12 @@ import {
   File
 } from 'lucide-react';
 
+
+const getImagePath = (path: string) => {
+  return path.startsWith('http') ? path : `./img${path}`;
+};
+
+
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -280,8 +286,8 @@ function App() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-xl shadow-lg overflow-hidden">
               <img 
-                src="../public/img/onlinehealth.jpeg"
-                alt="Enterprise Dashboard"
+                src={getImagePath('/onlinehealth.jpeg')}
+                alt="Enterprise Dashboa"
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
