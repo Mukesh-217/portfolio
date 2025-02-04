@@ -908,7 +908,7 @@ function App() {
           </p>
           <div className="flex justify-center space-x-6">
             <a 
-              href="2100031981cse.h@gmail.com" 
+              href="mailto:2100031981cse.h@gmail.com"
               className="flex items-center bg-slate-700 hover:bg-slate-600 text-white px-6 py-3 rounded-lg transition-colors"
             >
               <Mail size={20} className="mr-2" />
